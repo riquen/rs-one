@@ -1,11 +1,12 @@
 import { PencilSquareIcon } from '@heroicons/react/24/outline'
+import { Avatar } from '../Avatar'
 
 export const Sidebar = () => {
     return (
         <aside className="bg-neutral-800 rounded-lg overflow-hidden">
             <img className="w-full h-20 object-cover" src="https://picsum.photos/500" alt="" />
             <div className="flex flex-col items-center -mt-7">
-                <img className="w-12 h-12 rounded-lg border-4 border-solid border-neutral-800 outline-2 outline outline-green-500 box-content" src="https://github.com/riquen.png" alt="" />
+                <Avatar hasBorder src='https://github.com/riquen.png' />
                 <strong className="mt-4 text-neutral-100 leading-relaxed">Henrique Nunes</strong>
                 <span className="text-sm text-neutral-400 leading-relaxed">Developer</span>
             </div>

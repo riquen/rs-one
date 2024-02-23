@@ -4,9 +4,9 @@ import { Sidebar } from '../components/Sidebar'
 
 function App() {
   return (
-    <div className="min-h-screen bg-neutral-900 text-neutral-50 font-roboto antialiased">
+    <div className="min-h-screen bg-neutral-900 text-neutral-50 font-roboto antialiased text-sm md:text-base">
       <Header />
-      <div className="max-w-6xl mt-8 mx-auto px-4 grid grid-cols-layout gap-x-8 items-start">
+      <div className="max-w-6xl mx-auto px-4 py-8 grid gap-8 items-start md:grid-cols-md">
         <Sidebar />
         <main>
           <Post />

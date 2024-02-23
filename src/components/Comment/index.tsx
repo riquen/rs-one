@@ -1,9 +1,10 @@
 import { TrashIcon, HandThumbUpIcon } from '@heroicons/react/24/outline'
+import { Avatar } from '../Avatar'
 
 export const Comment = () => {
     return (
         <div className='mt-6 flex gap-4'>
-            <img className='w-12 h-12 rounded-lg' src="https://github.com/riquen.png" alt="" />
+            <Avatar src="https://github.com/tiagofsv95.png" />
             <div className='flex-1'>
                 <div className='bg-neutral-700 rounded-lg p-4'>
                     <header className='flex items-start justify-between'>

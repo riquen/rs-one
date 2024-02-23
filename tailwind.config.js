@@ -7,7 +7,7 @@ export default {
         'roboto': ['Roboto', 'sans-serif']
       },
       gridTemplateColumns: {
-        'layout': '16rem 1fr'
+        'md': '16rem 1fr'
       }
     },
   },
